@@ -165,6 +165,7 @@ hero aside section start
   display: inline;
   list-style: none;
   padding: 0 0.4rem;
+  cursor: pointer;
 }
 /* 
 ******************
@@ -469,12 +470,13 @@ Contact section start
 .contact-form {
   display: flex;
   align-content: center;
+  gap: 2rem;
 }
 
 .contact {
   display: flex;
-  padding: 2rem;
   align-items: center;
+  padding: 2rem 0;
 }
 
 .contact span {
@@ -484,7 +486,7 @@ Contact section start
 }
 
 .contact p {
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding: 1rem;
 }
 
