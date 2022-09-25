@@ -138,10 +138,6 @@ hero aside section start
   color: rgb(252, 252, 252);
 }
 
-.hero-main {
-  /* background-color: rgb(221, 255, 0); */
-}
-
 .hero-aside-footer {
   width: 100%;
   text-align: center;
@@ -156,9 +152,6 @@ hero aside section start
 
 .hero-aside-footer p {
   margin: 0 0 1.4rem;
-}
-
-.hero-aside-footer ul {
 }
 
 .hero-aside-footer ul li {
@@ -432,9 +425,6 @@ Education section end
 Work section start
 ******************
 */
-.timeline-box {
-  /* background-color: rgb(50, 54, 54); */
-}
 
 .timeline-label h3 {
   margin-top: 0.2rem;
