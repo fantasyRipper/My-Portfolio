@@ -173,9 +173,15 @@ hero main section start
 */
 .hero-main {
   overflow: scroll;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.hero-main::-webkit-scrollbar {
+  /* background-color: #4dabf7; */
+  width: 0;
 }
 /* 
 ******************
