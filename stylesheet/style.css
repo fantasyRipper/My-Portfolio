@@ -328,17 +328,21 @@ DEVELOPMENTS section start
   background-color: #9775fa;
   font-size: 8rem;
   font-weight: 700;
-  color: rgb(115, 222, 187);
   position: absolute;
   top: 18rem;
   left: 24rem;
-  box-shadow: 0 2rem 2rem #000;
 }
 
 .to-MyApp:hover {
   text-shadow: 1rem 2rem 2rem #000;
+  box-shadow: 0 2rem 2rem #000;
   transition: all 0.3s;
   cursor: pointer;
+}
+
+.to-MyApp a {
+  text-decoration: none;
+  color: rgb(115, 222, 187);
 }
 
 /*
