@@ -1,0 +1,239 @@
+/**************************/
+/* HEADER */
+/**************************/
+header {
+  position: relative;
+  background-image: linear-gradient(
+      70deg,
+      rgba(113, 53, 53, 0.6),
+      rgba(38, 36, 84, 0.6)
+    ),
+    url(../images/cowboy-bebop.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.logo-box {
+  padding: 4% 3%;
+}
+
+.logo-rip {
+  float: left;
+  font-size: xx-large;
+}
+
+.btn-resume {
+  color: #e9f0fd;
+  font-size: 2rem;
+  padding: 1rem 4rem;
+  border-radius: 3rem;
+  float: right;
+  background-color: #576b967e;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn-resume:hover {
+  background-color: #8ca6dc7e;
+}
+
+.footer-link,
+.header-link:link,
+.footer-link,
+.header-link:visited {
+  text-decoration: none;
+  color: #e9f0fd;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.header-link:hover,
+.footer-link:active,
+.header-link:active {
+  color: #e9f0fd;
+  /* border-bottom: 1px solid; */
+  box-shadow: 0 0.1rem 0 #e9f0fd;
+}
+
+.master-header-box {
+  max-width: 80rem;
+  padding-bottom: 8rem;
+  margin: 8rem auto 0 5rem;
+}
+
+.master-header-box h1 {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  color: #e9f0fd;
+}
+
+.master-header-box h2 {
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+  color: #e48d45d6;
+}
+
+.master-header-box strong {
+  color: #fdf4e9;
+}
+
+.master-header-box em {
+  color: #af8578;
+}
+
+.master-header-box p {
+  font-size: 2.8rem;
+  line-height: 1.8;
+  color: #f0c8ab;
+  margin-bottom: 4rem;
+}
+
+/**************************/
+/* main */
+/**************************/
+.section-work {
+  background: linear-gradient(85deg, #a34a25, #861b2e);
+  font-size: 2.6rem;
+  color: #f0c8ab;
+}
+
+.lanes {
+  margin: 0 11rem 0 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 0;
+}
+
+.lane-left {
+  width: 100%;
+}
+.lane-right {
+  margin-left: 4rem;
+  width: 100%;
+}
+
+.section-work article {
+  margin-bottom: 6rem;
+  background-color: #271930c9;
+  padding: 2rem;
+  border-radius: 2rem;
+  line-height: 3.2rem;
+}
+
+.section-work h2 {
+  line-height: 4.2rem;
+  color: #fdf4e9;
+  font-size: 3.8rem;
+  margin-bottom: 6rem;
+}
+
+.section-work a {
+  margin-left: 2rem;
+}
+
+.section-Bio {
+  background-image: linear-gradient(
+      70deg,
+      rgba(113, 53, 53, 0.6),
+      rgba(38, 36, 84, 0.6)
+    ),
+    url(../images/stars.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #eee;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: Ink Free;
+}
+
+.row {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
+.me-pick {
+  height: 16rem;
+  margin-bottom: 4rem;
+  border-radius: 50%;
+}
+
+.section-Bio h2 {
+  margin-bottom: 4rem;
+}
+
+.section-Bio p {
+  width: 80%;
+  line-height: 1.8;
+  margin: 0 auto 2.8rem auto;
+  text-align: left;
+  font-weight: 600;
+}
+
+.sign {
+  display: block;
+  width: 26rem;
+  margin-left: 15%;
+}
+
+.section-features {
+  background: linear-gradient(85deg, #a34a25, #861b2e);
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.project_box {
+  font-size: 3.6rem;
+  background-color: #242c3a;
+  padding: 6rem 4rem;
+}
+
+/**************************/
+/* footer */
+/**************************/
+
+footer {
+  /* background: linear-gradient(85deg, #a34a25, #861b2e); */
+  background-image: linear-gradient(
+      70deg,
+      rgba(113, 53, 53, 0.6),
+      rgba(38, 36, 84, 0.6)
+    ),
+    url(../images/space.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 5rem 0;
+}
+
+.footer-text {
+  margin: 4rem 0;
+  font-size: 2rem;
+  line-height: 4rem;
+  text-align: center;
+}
+
+.social-plugins {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+.social-plugins li {
+  font-size: 1.6rem;
+  background-color: #a34b257e;
+  padding: 1.6rem 2.6rem;
+  border-radius: 4rem;
+  transition: all 0.3s;
+}
+
+.social-plugins li:hover {
+  background-color: #a2664c;
+  cursor: pointer;
+}
